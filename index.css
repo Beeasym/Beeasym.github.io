@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    background-image: url(file:///Users/vladislavkugucev/Documents/projects/helloworld/resources/img/pattern.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.header h1 {
+    font-family: Helvetica, sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+}
+.brushes h2 {
+    font-family: Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    background-color: mediumspringgreen;
+}
+.frames h2 {
+    font-family: Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    background-color: lightcoral;
+}
+.paint h2 {
+    font-family: Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    background-color: skyblue;
+}
+span {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    color: blue;
+}
+section {
+    margin: 20px 0;
+}
+h3 {
+    margin: 10px 0;
+}
+ul {
+    text-align: center;
+}
+li {
+    display: inline-block;
+    border: 1px solid khaki;
+    background-color: khaki;
+    padding: 20px 20px;
+    color: black;
+    width: 400px;
+    margin: 0px 20px 20px 20px;
+}
+li:hover {
+    background-color: aqua;
+}
